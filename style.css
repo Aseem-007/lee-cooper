@@ -1,0 +1,197 @@
+body{
+    overflow-x:hidden ;
+}
+  
+ .cf{
+    height: 96px;
+    z-index: 2;
+ }
+
+.a{
+    margin-top: 96px;
+}
+#text1:hover
+{
+    color: rgb(143, 141, 141);
+   
+}
+#text1,.text2,.logo:hover{
+    cursor: pointer;
+
+}
+
+@media(max-width:350px)
+{
+    #text1{
+        display:none;
+    }
+}
+
+@media(max-width:350px)
+{
+    .text2{
+        display:none;
+    }
+}
+
+.img1{
+    background-image: url("images/kakhi\ boy.jpg");
+    height: 612px;
+    width: 212px;
+}
+
+
+.img2{
+    background-image: url("images/denim\ pant.jpg");
+     height: 612px;
+     width: 212px;
+}
+
+
+.img3{
+    background-image: url("images/white\ guys.jpg");
+    height: 612px;
+    width: 212px;
+    background-repeat: no-repeat;
+}
+
+.img4{
+    background-image: url("images/denim\ shirt.jpg");
+    height: 612px;
+    width: 212px;
+}
+
+.img5{
+    background-image: url("images/the\ girl.jpg");
+    height: 612px;
+    width: 212px;
+} 
+
+.img6{
+    background-image: url("images/black\ t-men.jpg");
+     height: 612px;
+     width: 212px;
+}
+
+
+.img7{
+    background-image: url("images/grey\ guy.jpg");
+    /* height: 612px;
+    width: 212px; */
+}
+
+.img8{
+    background-image: url("images/full\ denim.jpg");
+    /* height: 612px;
+    width: 212px; */
+}
+
+.img9{
+    background-image: url("images/black\ t-girl.jpg");
+    /* height: 610px;
+    width: 212px; */
+}
+.p{
+    width:80%;
+}
+ .txt{
+    position: absolute;
+    top: 43%;
+    bottom: 0;
+    right: 0;
+    left: 23%;
+    color: white;
+    font-size: 320%;
+    
+ }
+
+ .a{
+    
+    overflow: hidden;
+    z-index: 1;
+ }
+
+ #view-tx{
+   
+    left:500% ;
+ }
+ .txt-A{
+    position: absolute;
+    top: 57%;
+    left: 47%;
+    font-size:100%;
+    color: white;
+ }
+
+ .txt-sec{
+    position: absolute;
+    top: 39%;
+    bottom: 0;
+    right: 0;
+    left: 35%;
+    color: white;
+    font-size: 325%;
+    
+ }
+
+ #now-tx{
+   
+    left:500% ;
+ }
+ .txt-B{
+    position: absolute;
+    top: 55%;
+    left: 45%;
+    font-size:95%;
+    color: white;
+ }
+ .camp,#now-tx,#view-tx{
+    cursor: pointer;
+ }
+
+.empty{
+    height: 3px;
+    width: 100%;
+    background-image: linear-gradient(to top, rgb(172, 157, 157), white);
+}
+
+.iconA,.iconB,.iconC,.iconD{
+    cursor: pointer;
+}
+
+.b-line{
+    height: 2px;
+    background-color: black;
+
+}
+@media (min-width:767px) and (max-width:1230px)
+{
+    .ins,.tik,.ter,.pri,.con,.lee{
+        font-size:9px  !important;
+    }
+}
+
+.cr-A{
+    margin-bottom: 120px;
+}
+
+.IM{
+    text-decoration: none;
+    
+}
+.tik,.ter,.pri,.con,.lee{
+    cursor: pointer;
+
+}
+.end-fr{
+    /* margin-top: 10px; */
+    height: 170px;
+    width: 100%;
+    padding-top: 60px;
+}
+
+@media(max-width:412px){
+    .img1,.img2,.img4,.img5{
+        display: none;
+    }
+}
